@@ -2,14 +2,14 @@
 
 Guardrails for code written with AI assistants. One command, `railing gate`, that CI, your git hooks and the assistant itself all run, so quality doesn't depend on anyone remembering the rules.
 
-It came out of [UseHourly](https://github.com/Zontak-LLC/usehourly), a time tracker built almost entirely with Claude Code, where these checks kept the codebase from turning into a mess. This is those checks, pulled out so you can add them to your own project.
+It came out of [UseHourly](https://github.com/zontak-ai/usehourly), a time tracker built almost entirely with Claude Code, where these checks kept the codebase from turning into a mess. This is those checks, pulled out so you can add them to your own project.
 
 > Status: v0.1. It is small on purpose. It works for JavaScript and TypeScript projects in a git repository. It does not replace your linter, type checker or tests. It runs them, and adds what they can't express.
 
 ## Try it
 
 ```sh
-npm i -D github:Zontak-LLC/railing
+npm i -D github:zontak-ai/railing
 npx railing init
 npx railing gate
 ```
