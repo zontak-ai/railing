@@ -13,7 +13,7 @@
     "gate": "node bin/railing.mjs gate"
   },
   "keywords": ["claude-code", "ai", "guardrails", "lint", "ci", "quality", "coding-agents", "vibe-coding"],
-  "repository": { "type": "git", "url": "git+https://github.com/Zontak-LLC/railing.git" },
-  "homepage": "https://github.com/Zontak-LLC/railing#readme",
-  "bugs": { "url": "https://github.com/Zontak-LLC/railing/issues" }
+  "repository": { "type": "git", "url": "git+https://github.com/zontak-ai/railing.git" },
+  "homepage": "https://github.com/zontak-ai/railing#readme",
+  "bugs": { "url": "https://github.com/zontak-ai/railing/issues" }
 }
